@@ -15,7 +15,7 @@ function setFavico(canvas){
         document.querySelector('head').appendChild(icon)
     }
 }
-const DIRECTION = {
+var DIRECTION = {
     37:'left',
     // 上
     38:'up',
