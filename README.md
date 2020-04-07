@@ -2,6 +2,8 @@
 :trollface: favico for fun
 
 
+## 演示
+[Live Demo](https://shengxinjing.cn/wheel/moyu.html)
 ## 看视频
 
 上下控制音量
