@@ -1,9 +1,12 @@
 # iconjs
 :trollface: favico for fun
 
-## 在线体验
+[English](./README-EN.md)
 
-[Live Demo]()
+
+## 在线体验
+[Live Demo](https://shengxinjing.cn/wheel/moyu.html)
+
 
 ## 安装
 
