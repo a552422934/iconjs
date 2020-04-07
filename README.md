@@ -47,4 +47,4 @@ var s = new Snake()
 s.init()
 ```
 
-![](/Users/woniuppp/Downloads/iconjs/img/03-snake.gif)
+![](./img/03-snake.gif)
