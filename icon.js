@@ -49,6 +49,7 @@ class Snake {
 	initCanvas(){
 		this.canvas = document.createElement('canvas')
         this.canvas.width = this.canvas.height = this.SIDE
+        document.body.appendChild(this.canvas)
     }
 	initGrid(){
 		this.grid = []
@@ -59,7 +60,6 @@ class Snake {
 	// 初始化小蛇蛇
 	initSnake(){
 		this.snake = []
-
 		// 初始值长度是3 处置位置在左侧中间
 		let y = 4
 		let x = 0
@@ -69,7 +69,7 @@ class Snake {
 			this.grid[y][x] = '1'
 			snakeLength--
 			x++
-		}
+        }
         // 小蛇的初始方向是右边
         this.current = this.directions.right
 
@@ -131,8 +131,6 @@ class Snake {
 		this.snake.push({x:nextX,y:nextY})
         this.grid[nextY][nextX] = '1'
         this.drawCanvas()
-
-
 	}
 	// 放吃的
 	setFood(){
@@ -181,9 +179,8 @@ class Snake {
 		this.initGrid()
         this.initSnake()
         this.setFood()
+        console.table(this.grid)
         this.drawCanvas()
-
-        
     }
 	init(){
 		this.initCanvas()
