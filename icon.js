@@ -334,7 +334,6 @@ class Icon{
     }
 }
 
-
 if(window.ictype==='video'){
     // window.vurl = window.vurl||
     // 视频
